@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Modelo Compra</title>
+</head>
+<body>
+    <li>
+    <div>
+        <h1>Producto 1</h1>
+        <img src="https://s1.significados.com/foto/jackson-pollock-number-17a-significados_bg.jpg" alt="img-1">
+    </div>
+        <button onclick= "addProduct('miro',125,1)">Comprar</button>
+    </li>
+    <div>
+        <h1>Producto 2</h1>
+        <img src="https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL21vdmVtZW50XC9pbWFnZUZpbGVcL3Zhc3NpbHlfa2FuZGluc2t5XzE5MjNfLV9jb21wb3NpdGlvbl84X2h1aWxlX3N1cl90b2lsZV8xNDBfY21feF8yMDFfY21fbXVzYzNhOWVfZ3VnZ2VuaGVpbV9/uZXdfeW9yay5qcGciLCJyZXNpemVDcm9wLDQwMCw0MDAiXX0.LHQwe_5yf8iepjMmb2t1cI2HLVOaRX0pAgfEnxpkuVs.jpg" alt="img-2">
+        <button onclick= "addProduct('vangogh',125,1)">Comprar</button>
+    </div>
+    <div>
+        <h1>Producto 3</h1>
+        <img src="https://sites.google.com/a/ceipaugustabilbilis.com/plastica/_/rsrc/1403788705927/arte-abstracto/1520582342891705.jpg?height=400&width=307" alt="img-3">
+        <button onclick= "addProduct('picasso',125,1)">Comprar</button>
+    </div>
+    <div id="totalProducts">
+        <span>Total: $ </span>
+    </div>
+    <div id="totalItems"></div>
+    <div id="cartWrapper">
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

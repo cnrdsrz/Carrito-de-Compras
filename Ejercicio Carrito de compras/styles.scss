@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div {
+    height: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 3rem;
+    
+
+    img {
+        height: auto;
+        width: 300px;
+    }
+
+}
+
+#totalItems {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-self: flex-start;
+}
+
+#cartWrapper {
+    width: 100px;
+    height: 100px;
+
+}
